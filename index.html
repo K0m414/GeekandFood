@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Geek and Food</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Geek and Food">
+        <h1>Geek and Food</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#pruduct">Notre produit</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="pruduct" class="container-custom">
+            <div class="img-box">
+                <img src="food.png" alt="Image de saumon d'hiver">
+            </div>
+            <div class="details-box">
+                <div class="content">
+                    <h2>Geek and Food <br>
+                        <span>Saumon d'hiver</span>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit mauris eget arcu laoreet, vel bibendum odio congue. In hac habitasse platea dictumst. Nulla facilisi.</p>
+                    <h3>12€</h3>
+                    <button style="color: #FFE4E0;">Acheter</button>
+                </div>
+            </div>
+        </article>
+        <article id="about" class="about">
+            <h2>À Propos de Nous</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit mauris eget arcu laoreet, vel bibendum odio congue. In hac habitasse platea dictumst. Nulla facilisi.</p>
+            <p>Donec hendrerit, nisl sit amet tincidunt varius, ligula nisi viverra lectus, id efficitur lectus orci vel justo. Nullam nec massa sed justo iaculis congue. Vestibulum id facilisis lectus.</p>
+        </article>
+        <div id="form" class="form-container">
+            <div class="text">Contactez-nous</div>
+            <form>
+                <div class="form-row">
+                    <div class="input-data">
+                        <input placeholder="Votre Nom" type="text" required>
+                        <label for="name"></label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data">
+                        <input placeholder="Votre Email" type="text" required>
+                        <label for="email"></label>
+                    </div>
+                </div>
+                <div class="form-row textarea">
+                    <div class="input-data">
+                        <textarea placeholder="Votre Message" rows="4" required></textarea>
+                        <label for="message"></label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+            <h3>Pour être au courrant de nos dernières nouvautés suivez-nous sur nos réseaux sociaux</h3>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer style="text-align: center;">
+        <p>&copy; 2023 Geek and Food. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
